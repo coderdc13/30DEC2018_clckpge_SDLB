@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            click anywhere function
+        </title>
+    </head>
+    <body>
+        <p>
+            This example uses the addEventListener() method to attach a click event to the entire document
+        </p>
+        <p>
+            Click anywhere in the document.
+        </p>
+        <p>
+            <strong>
+                Note:
+            </strong>
+            This will be awesome...
+        </p>
+        <p id="eg"></p>
+        <script>
+        document.addEventListener("click", function(){
+            document.getElementById("eg").innerHTML = "You Did It!";
+        });
+        </script>
+    </body>
+</html>
